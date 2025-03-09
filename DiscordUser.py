@@ -65,6 +65,6 @@ while True:
         message = f"""
 ⭐ DISCORD USERNAME AVAILABLE ⭐
 ✦ Username → {user}
-By @DrSudo
+By @RONIT_IN
 """
         requests.post(f"https://api.telegram.org/bot{tok}/sendMessage?chat_id={id}&text=" + str(message))
